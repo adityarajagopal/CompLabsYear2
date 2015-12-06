@@ -33,8 +33,7 @@ int main()
 	it = std::min_element(v1.begin(), v1.end()); 
 	std::cout << it-v1.begin() << std::endl;
 	std::cout << *it << std::endl;
-	
-	//sort using algorithm header
+
 	/*
 	std::sort(v1.begin(), v1.end()); 
 	typename std::vector<point>::const_iterator it;
