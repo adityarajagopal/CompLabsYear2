@@ -13,14 +13,14 @@ void my_swap(Type& a, Type& b)
 }
 
 template <typename T>
-T my_add(T a, T b)
+T my_add(T& a, T& b)
 {
 	std::cout << "using 1 parameter version" << std::endl;
 	return a+b;
 }
 
 template <typename T1, typename T2>
-T2 my_add(T1 a, T2 b)
+T2 my_add(T1& a, T2& b)
 {
 	std::cout << "using 2 parameter version" << std::endl;
 	return a+b;
